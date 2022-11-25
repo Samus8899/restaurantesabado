@@ -22,6 +22,7 @@ def PlatosVista(request):
     # rutina para consulta de platos
     platosConsultados=Platos.objects.all()
     print(platosConsultados)
+    
 
     #Esta vista va a utilizar un formulario de django
     #DEBO CREAR ENTONCES UN OBJETO DE LA CLASE FormularioPlatos()
